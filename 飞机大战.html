@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="01.css">
+</head>
+<body>
+<!-- 开始页面 -->
+<div id="main">
+	<div id="begin">
+		<button onclick="begin()">开始游戏</button>
+	</div>
+</div>
+
+
+<!-- 游戏页面 -->
+<div id="maindiv">
+	<!-- 分数盒子 -->
+	<div id="score">
+		<label>分数:</label>
+		<label id="label">0</label>
+	</div>
+
+	<!-- 结束界面 -->
+	<div id="end">
+		<p id = "title">飞机大战分数:</p>
+		<p id="endScore">0</p>
+
+		<button onclick="again()">重新开始</button>
+
+	</div>
+	<div id="zanting">
+		<button>继续</button>
+		<button id="chongxin" onclick="">重新开始</button>
+		<button onclick="again()">回到主页</button>
+
+	</div>
+		
+</div>
+	
+</body>
+<script type="text/javascript" src="01.js"></script>
+</html>
